@@ -73,4 +73,4 @@ Este repositorio contiene documentación y material audiovisual del caso. El có
 
 ## Contacto
 
-[Agustin Crudo · Ingenia Software](https://github.com/IngeniaSoftwareok) · [Web profesional](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[Agustin Crudo · Ingenia Software](https://github.com/IngeniaSoftwareok) · [Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Web profesional](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
