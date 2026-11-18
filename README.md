@@ -64,4 +64,4 @@ El programa reemplazó tareas que los empleados hacían a mano y redujo consider
 
 ## Contacto
 
-[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Servicios de Ingenia](https://ingenia-software.com.ar/) · [Contacto personal](mailto:agustincrudo01@gmail.com)
