@@ -1,17 +1,17 @@
-# Decisiones seleccionadas
+# Decisiones técnicas
 
-## Llevar el presupuesto al proceso comercial
+## Automatizar la preparación del presupuesto
 
-La tarea previa combinaba varias herramientas. El criterio del desarrollo es preparar el documento desde información vinculada a la operación y conservar su seguimiento dentro del sistema.
+Una de las tareas que más trabajo les daba a los vendedores era armar cada presupuesto en distintas herramientas. Integré su preparación en el sistema para reutilizar los datos del cliente, los productos y los servicios, y generar el documento desde esa misma operación.
 
-## Separar escritorio y backend
+## Separar las pantallas de las reglas comerciales
 
-La evolución combina JavaFX y una API Spring Boot. Esto ubica las pantallas de trabajo en el cliente y permite concentrar reglas y datos en el servidor. La presentación no publica la topología de una instalación real.
+Usé JavaFX para la aplicación de escritorio y Spring Boot para los servicios. Las pantallas se ocupan de la interacción con el usuario; el backend procesa las operaciones y guarda la información.
 
-## Conservar el contexto del documento
+## Vincular el PDF con su presupuesto
 
-El código revisado contempla la creación del presupuesto y su PDF dentro de operaciones transaccionales. El objetivo es conservar una relación coherente entre el registro comercial y el documento generado. El video incluido no demuestra el flujo completo de generación.
+Agrupé la creación del presupuesto y la generación del PDF en el mismo flujo. Así, el documento conserva su relación con la operación y puede recuperarse durante el seguimiento comercial.
 
-## Evolucionar sobre un sistema en uso
+## Evolucionar sobre el trabajo diario
 
-La prioridad es ampliar una herramienta que ya acompaña tareas reales. La cobertura de toda la empresa sigue siendo un objetivo de evolución, no una función declarada como terminada.
+El sistema ya automatiza tareas de vendedores y administrativos. Las mejoras parten de ese uso: reducir pasos manuales, resolver nuevas necesidades y extender la gestión a otras áreas de Newblock.

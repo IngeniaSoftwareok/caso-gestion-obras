@@ -1,16 +1,24 @@
-# Arquitectura del caso
+# Arquitectura
 
-Vista simplificada del proyecto; no describe credenciales, servidores ni configuración operativa.
+Organicé el sistema en un cliente de escritorio para el trabajo diario y un backend que procesa las operaciones comerciales.
 
 ```mermaid
 flowchart LR
   U["Vendedores y administrativos"] --> D["Cliente de escritorio · JavaFX"]
   D --> A["API · Spring Boot"]
-  A --> B["Reglas y datos comerciales"]
-  B --> M["Persistencia · MySQL"]
-  B --> P["Preparación de documentos PDF"]
+  A --> B["Reglas comerciales"]
+  B --> M["Datos · MySQL"]
+  B --> P["Generación de presupuestos y PDF"]
 ```
 
-El cliente ofrece las pantallas de operación. El backend concentra servicios y persistencia. La evolución revisada vincula el presupuesto, los datos comerciales y el PDF, preservando la información de la operación.
+## Cliente de escritorio
 
-El repositorio presenta la arquitectura del proyecto revisado. La existencia de una mejora en el código no implica por sí sola que esa revisión esté instalada en todos los equipos.
+Las pantallas reúnen clientes, productos, presupuestos, ventas, pagos, visitas, contratos y agenda. El vendedor puede consultar la información y continuar una operación desde el mismo programa.
+
+## Backend
+
+La API recibe las solicitudes del cliente y concentra las reglas comerciales, la persistencia y la generación de documentos. Esta separación me permite modificar una regla sin tener que repetirla en cada pantalla.
+
+## Presupuestos y documentos
+
+El sistema toma los datos de la operación para preparar el presupuesto y generar su PDF. El documento queda vinculado al registro comercial correspondiente, lo que facilita recuperarlo y seguir la venta.

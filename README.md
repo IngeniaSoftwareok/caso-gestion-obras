@@ -1,53 +1,45 @@
-# Gestión para una empresa de obras · Newblock
+# Newblock · Sistema de gestión
 
-Presupuestos, operaciones comerciales y seguimiento dentro del sistema que utiliza la empresa.
+Automatización de presupuestos, documentos y tareas comerciales para una empresa de obras.
 
 | Proyecto | Detalle |
 |---|---|
 | Tipo | Software a medida para una empresa de obras |
-| Estado | En uso por vendedores y administrativos. Desarrollo en evolución. |
+| Estado | En uso en Newblock |
 | Tecnologías | Java · JavaFX · Spring Boot · MySQL |
 | Desarrollo | Agustin Crudo · Ingenia Software |
-| Código de la aplicación | Privado; este repositorio presenta el caso |
+| Código de la aplicación | Privado |
 
-![Listado de presupuestos del sistema de obras con datos ficticios](assets/01-presupuestos.webp)
+![Listado de presupuestos de Newblock](assets/01-presupuestos.webp)
 
-**Material visual de demostración.** Las cifras de las pantallas no son resultados comerciales.
-
-## Recorrido visual
-
-[![Abrir el recorrido visual](assets/poster.webp)](assets/recorrido.mp4)
-
-[Ver o descargar el video MP4 · 39 s](assets/recorrido.mp4) · [Descripción del recorrido](docs/recorrido.md) · [Rótulos descriptivos VTT](assets/recorrido.es.vtt)
-
-El recorrido muestra navegación por módulos y consulta de registros con datos ficticios. No muestra generar ni abrir un presupuesto PDF ni constituye una medición de tiempos.
+Las capturas y el video usan datos de ejemplo.
 
 ## El problema
 
-Antes se combinaban Excel, Canva y notas para acompañar el trabajo comercial. La preparación individual de presupuestos era una de las tareas que más tiempo demandaba. El desarrollo buscó llevar ese proceso al sistema y reunir la información necesaria para seguir cada operación.
+Los vendedores armaban presupuestos con Excel, Canva y notas. Tenían que reunir la información de cada cliente, preparar los documentos a mano y mantener el seguimiento de la venta en distintas herramientas. Ese trabajo se repetía en cada operación y ocupaba una parte importante de su jornada.
 
-## La solución
+## Qué desarrollé
 
-- Gestión de clientes, productos y servicios vinculados al trabajo comercial.
-- Preparación de presupuestos y documentos asociados desde los datos del sistema.
-- Seguimiento de ventas, pagos, visitas, contratos y agenda según el alcance del desarrollo.
+- Generación de presupuestos y documentos PDF a partir de los datos cargados en el sistema.
+- Gestión de clientes, productos y servicios para reutilizar la información en cada operación.
+- Registro y seguimiento de ventas, pagos, visitas y contratos.
+- Agenda y consultas para organizar las tareas de vendedores y administrativos.
 
-## Mi participación
+## Mi trabajo
 
-Desarrollo a medida y evolución de la solución bajo Ingenia Software, con un proceso mixto de programación y herramientas de IA. El trabajo se enfoca en comprender las tareas de la empresa e incorporar mejoras sobre el uso real.
+Me encargo del desarrollo y de las mejoras del sistema. Defino con Newblock los flujos del programa y voy incorporando las funciones que necesita la empresa.
 
-## Resultado y estado
+## Qué cambió en Newblock
 
-El programa se utiliza actualmente como sistema central de las tareas de vendedores y administrativos de Newblock. Continúa ampliándose para extender la cobertura al resto de la empresa.
+El programa reemplazó tareas que los empleados hacían a mano y redujo considerablemente el trabajo de los vendedores. Es el único sistema que utilizan vendedores y administrativos para su actividad diaria. Sigo ampliándolo para que abarque más áreas de la empresa.
 
-## Decisiones y alcance
+## Video
 
-- [Arquitectura simplificada](docs/arquitectura.md)
-- [Decisiones técnicas seleccionadas](docs/decisiones-tecnicas.md)
-- [Qué demuestra el material y qué queda fuera](docs/alcance-evidencia.md)
+[![Reproducir el video](assets/poster.webp)](assets/recorrido.mp4)
 
-<details>
-<summary>Más capturas del proyecto</summary>
+[Ver o descargar el video MP4 · 39 s](assets/recorrido.mp4)
+
+## Más capturas
 
 **Ventas**
 
@@ -57,20 +49,19 @@ El programa se utiliza actualmente como sistema central de las tareas de vendedo
 
 ![Detalle de venta y pagos](assets/03-detalle-venta.webp)
 
-**Estadísticas de demostración**
+**Estadísticas**
 
-![Estadísticas de demostración](assets/04-estadisticas.webp)
+![Estadísticas](assets/04-estadisticas.webp)
 
 **Agenda**
 
 ![Agenda](assets/05-agenda.webp)
 
-</details>
+## Documentación técnica
 
-## Disponibilidad del código
-
-Este repositorio contiene documentación y material audiovisual del caso. El código fuente de la aplicación se mantiene privado. Los diagramas son explicaciones simplificadas, no instrucciones de despliegue ni una distribución del sistema.
+- [Arquitectura](docs/arquitectura.md)
+- [Decisiones técnicas](docs/decisiones-tecnicas.md)
 
 ## Contacto
 
-[Agustin Crudo · Ingenia Software](https://github.com/IngeniaSoftwareok) · [Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Web profesional](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
