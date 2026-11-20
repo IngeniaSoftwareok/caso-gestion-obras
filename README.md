@@ -31,7 +31,7 @@ Me encargo del desarrollo y de las mejoras del sistema. Defino con Newblock los 
 
 ## Qué cambió en Newblock
 
-El programa reemplazó tareas que los empleados hacían a mano y redujo considerablemente el trabajo de los vendedores. Es el único sistema que utilizan vendedores y administrativos para su actividad diaria. Sigo ampliándolo para que abarque más áreas de la empresa.
+El programa reemplazó tareas que los empleados hacían a mano y redujo considerablemente el trabajo de los vendedores. Hoy lo usan los 9 vendedores de Newblock y 3 personas de administración en su trabajo diario. Sigo ampliándolo para que abarque más áreas de la empresa.
 
 ## Video
 
